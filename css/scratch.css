@@ -1,0 +1,71 @@
+/* Scratch-only custom styles */
+body {
+  background-color: lightgoldenrodyellow;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h1 {
+  color: navy;
+  font-family: Georgia, Georgia;
+}
+
+p {
+  color: #444;
+}
+
+.hero {
+  background-color: pink;
+  font-family: Georgia, Georgia;
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  background-color: white;
+  font-family: Georgia, Georgia;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.content2 {
+  background-color: lightblue;
+  font-family: Georgia, Georgia;
+  color: navy;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.content2 ol,
+.content2 ul {
+  text-align: left;
+}
+
+.footer {
+  background-color: pink;
+  font-family: Georgia, Georgia;
+  color: black;
+  padding: 15px;
+  text-align: center;
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 20px;
+}
+
+.video-grid iframe {
+  width: 100%;
+  max-width: 560px;
+}
+
+@media (min-width: 1200px) {
+  .video-grid iframe {
+    width: 560px;
+  }
+}
